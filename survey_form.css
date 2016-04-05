@@ -1,0 +1,57 @@
+textarea {
+	resize: none;
+}
+
+form {
+	border: 1px solid black;
+	width: 420px;
+	padding: 20px;
+	height: 210px;
+	margin: 10px auto;
+
+}
+
+.submit {
+	color: white;
+	background-color: blue;
+	float: right;
+}
+
+input, select {
+	margin-bottom: 10px;
+	position: relative;
+	float: right;
+	clear: both;
+	overflow: hidden;
+}
+
+label {
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+
+#survey_results {
+	border: 1px solid black;
+	width: 420px;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+#survey_results h3 {
+	text-decoration: underline;
+}
+
+#survey_results form {
+	border: none;
+	width: auto;
+	padding: 20px;
+	height: auto;
+}
+
+#comment_p {
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 100%;
+}
